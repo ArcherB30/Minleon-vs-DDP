@@ -1,0 +1,70 @@
+
+
+2023-01-05 22:48:04,919 27148 log_base [DEBUG] Firmware version : NDB+ v2.7
+2023-01-05 22:48:04,919 27148 log_base [DEBUG] Curl GET: http://10.0.1.104/01.html
+2023-01-05 22:48:04,919 27148 log_base [DEBUG] == Info:   Trying 10.0.1.104:80...
+2023-01-05 22:48:05,440 27148 log_base [DEBUG] == Info: Connected to 10.0.1.104 (10.0.1.104) port 80 (#0)
+2023-01-05 22:48:05,440 27148 log_base [DEBUG] => Send header 56
+2023-01-05 22:48:05,442 27148 log_base [DEBUG] == Info: Mark bundle as not supporting multiuse
+2023-01-05 22:48:05,442 27148 log_base [DEBUG] <= Recv header 17
+2023-01-05 22:48:05,443 27148 log_base [DEBUG] <= Recv header 39
+2023-01-05 22:48:05,445 27148 log_base [DEBUG] <= Recv header 65
+2023-01-05 22:48:05,445 27148 log_base [DEBUG] <= Recv header 19
+2023-01-05 22:48:05,445 27148 log_base [DEBUG] <= Recv header 2
+2023-01-05 22:48:05,501 27148 log_base [DEBUG] <= Recv data 890
+2023-01-05 22:48:05,501 27148 log_base [DEBUG] == Info: Closing connection 0
+2023-01-05 22:48:05,501 27148 log_base [DEBUG] 01.html:
+{"config":{"ip":"10.0.1.104","nm":"255.255.255.0","gw":"10.0.1.100","protocol":"DDP","universe":20,"chipn":"RGB+","chip":0,"t0h":400,"t1h":850,"tbit":1260,"tres":100,"conv":"0","nports":16,"rpt":0,"ports":[{"port":0,"ts":0,"rev":0,"l":80,"ss":1},{"port":1,"ts":0,"rev":0,"l":60,"ss":511},{"port":2,"ts":0,"rev":0,"l":60,"ss":1021},{"port":3,"ts":0,"rev":0,"l":60,"ss":1531},{"port":4,"ts":0,"rev":0,"l":60,"ss":2041},{"port":5,"ts":0,"rev":0,"l":60,"ss":2551},{"port":6,"ts":0,"rev":0,"l":60,"ss":3061},{"port":7,"ts":0,"rev":0,"l":60,"ss":3571},{"port":8,"ts":0,"rev":0,"l":4,"ss":4081},{"port":9,"ts":0,"rev":0,"l":0,"ss":4591},{"port":10,"ts":0,"rev":0,"l":0,"ss":4591},{"port":11,"ts":0,"rev":0,"l":0,"ss":4591},{"port":12,"ts":0,"rev":0,"l":0,"ss":4591},{"port":13,"ts":0,"rev":0,"l":0,"ss":4591},{"port":14,"ts":0,"rev":0,"l":0,"ss":4591},{"port":15,"ts":0,"rev":0,"l":0,"ss":4591}]}}
+2023-01-05 22:48:05,502 27148 log_base [DEBUG] Downloaded string data.
+2023-01-05 22:48:05,502 27148 log_base [DEBUG]     Port 01 Tees 0  Nodes 80 Start 1
+2023-01-05 22:48:05,502 27148 log_base [DEBUG]     Port 02 Tees 0  Nodes 60 Start 511
+2023-01-05 22:48:05,502 27148 log_base [DEBUG]     Port 03 Tees 0  Nodes 60 Start 1021
+2023-01-05 22:48:05,502 27148 log_base [DEBUG]     Port 04 Tees 0  Nodes 60 Start 1531
+2023-01-05 22:48:05,502 27148 log_base [DEBUG]     Port 05 Tees 0  Nodes 60 Start 2041
+2023-01-05 22:48:05,502 27148 log_base [DEBUG]     Port 06 Tees 0  Nodes 60 Start 2551
+2023-01-05 22:48:05,502 27148 log_base [DEBUG]     Port 07 Tees 0  Nodes 60 Start 3061
+2023-01-05 22:48:05,502 27148 log_base [DEBUG]     Port 08 Tees 0  Nodes 60 Start 3571
+2023-01-05 22:48:05,502 27148 log_base [DEBUG]     Port 09 Tees 0  Nodes 4 Start 4081
+2023-01-05 22:48:05,502 27148 log_base [DEBUG]     Port 10 Tees 0  Nodes 0 Start 4591
+2023-01-05 22:48:05,502 27148 log_base [DEBUG]     Port 11 Tees 0  Nodes 0 Start 4591
+2023-01-05 22:48:05,502 27148 log_base [DEBUG]     Port 12 Tees 0  Nodes 0 Start 4591
+2023-01-05 22:48:05,502 27148 log_base [DEBUG]     Port 13 Tees 0  Nodes 0 Start 4591
+2023-01-05 22:48:05,502 27148 log_base [DEBUG]     Port 14 Tees 0  Nodes 0 Start 4591
+2023-01-05 22:48:05,502 27148 log_base [DEBUG]     Port 15 Tees 0  Nodes 0 Start 4591
+2023-01-05 22:48:05,502 27148 log_base [DEBUG]     Port 16 Tees 0  Nodes 0 Start 4591
+2023-01-05 22:48:05,502 27148 log_base [DEBUG] Connected to Minleon NDB+ v2.7
+2023-01-05 22:48:05,562 27148 log_base [DEBUG] Minleon Outputs Upload: Uploading to 10.0.1.104
+2023-01-05 22:48:05,563 27148 log_base [INFO] Scanning models.
+2023-01-05 22:48:05,565 27148 log_base [DEBUG] ERR: Invalid protocol on pixel port 1: 
+
+2023-01-05 22:48:05,565 27148 log_base [DEBUG] UDController Dump
+2023-01-05 22:48:05,565 27148 log_base [DEBUG]    IP Address 10.0.1.104.
+2023-01-05 22:48:05,566 27148 log_base [DEBUG]    Outputs:
+2023-01-05 22:48:05,566 27148 log_base [DEBUG]         DDP {20} (24124-25395) 
+2023-01-05 22:48:05,566 27148 log_base [DEBUG]    Pixel Ports 9. Maximum port Number 9.
+2023-01-05 22:48:05,566 27148 log_base [DEBUG]             Port 1. Protocol . Valid true. Invalid Reason ''. Channels 240. Pixels 80. Start #20:1.
+2023-01-05 22:48:05,566 27148 log_base [DEBUG]                 Model Window Addition 1  Round. Controller Connection . Start Channel 24124. End Channel 24363. Channels 240. Pixels 80. Start Channel #20:1
+2023-01-05 22:48:05,566 27148 log_base [DEBUG]             Port 2. Protocol ws2811. Valid true. Invalid Reason ''. Channels 180. Pixels 60. Start #20:1.
+2023-01-05 22:48:05,566 27148 log_base [DEBUG]                 Model Window Addition 2. Controller Connection ws2811:2. Start Channel 24124. End Channel 24303. Channels 180. Pixels 60. Start Channel #20:1
+2023-01-05 22:48:05,566 27148 log_base [DEBUG]             Port 3. Protocol ws2811. Valid true. Invalid Reason ''. Channels 180. Pixels 60. Start #20:181.
+2023-01-05 22:48:05,566 27148 log_base [DEBUG]                 Model Window Addition 3. Controller Connection ws2811:3. Start Channel 24304. End Channel 24483. Channels 180. Pixels 60. Start Channel #20:181
+2023-01-05 22:48:05,566 27148 log_base [DEBUG]             Port 4. Protocol ws2811. Valid true. Invalid Reason ''. Channels 180. Pixels 60. Start #20:361.
+2023-01-05 22:48:05,566 27148 log_base [DEBUG]                 Model Window Addition 4. Controller Connection ws2811:4. Start Channel 24484. End Channel 24663. Channels 180. Pixels 60. Start Channel #20:361
+2023-01-05 22:48:05,566 27148 log_base [DEBUG]             Port 5. Protocol ws2811. Valid true. Invalid Reason ''. Channels 180. Pixels 60. Start #20:541.
+2023-01-05 22:48:05,566 27148 log_base [DEBUG]                 Model Window Addition 5. Controller Connection ws2811:5. Start Channel 24664. End Channel 24843. Channels 180. Pixels 60. Start Channel #20:541
+2023-01-05 22:48:05,566 27148 log_base [DEBUG]             Port 6. Protocol ws2811. Valid true. Invalid Reason ''. Channels 180. Pixels 60. Start #20:721.
+2023-01-05 22:48:05,566 27148 log_base [DEBUG]                 Model Window Addition 6. Controller Connection ws2811:6. Start Channel 24844. End Channel 25023. Channels 180. Pixels 60. Start Channel #20:721
+2023-01-05 22:48:05,566 27148 log_base [DEBUG]             Port 7. Protocol ws2811. Valid true. Invalid Reason ''. Channels 180. Pixels 60. Start #20:901.
+2023-01-05 22:48:05,566 27148 log_base [DEBUG]                 Model Window Addition 7. Controller Connection ws2811:7. Start Channel 25024. End Channel 25203. Channels 180. Pixels 60. Start Channel #20:901
+2023-01-05 22:48:05,566 27148 log_base [DEBUG]             Port 8. Protocol ws2811. Valid true. Invalid Reason ''. Channels 180. Pixels 60. Start #20:1081.
+2023-01-05 22:48:05,566 27148 log_base [DEBUG]                 Model Window Addition 8. Controller Connection ws2811:8. Start Channel 25204. End Channel 25383. Channels 180. Pixels 60. Start Channel #20:1081
+2023-01-05 22:48:05,566 27148 log_base [DEBUG]             Port 9. Protocol ws2811. Valid true. Invalid Reason ''. Channels 12. Pixels 4. Start #20:1261.
+2023-01-05 22:48:05,566 27148 log_base [DEBUG]                 Model Floods 1. Controller Connection ws2811:9. Start Channel 25384. End Channel 25395. Channels 12. Pixels 4. Start Channel #20:1261
+2023-01-05 22:48:05,566 27148 log_base [DEBUG]    Serial Ports 0. Maximum port Number 0.
+2023-01-05 22:48:05,566 27148 log_base [DEBUG]    Virtual Matrices 0.
+2023-01-05 22:48:05,566 27148 log_base [DEBUG]    LED Panel Matrices 0.
+2023-01-05 22:48:05,567 27148 log_base [ERROR] DisplayError: Not uploaded due to errors.
+ERR: Invalid protocol on pixel port 1: 
+
+2023-01-05 22:48:13,894 27148 log_base [INFO] Minleon upload done.
+2023-01-05 22:48:25,366 27148 log_base [DEBUG] Viewing log file C:\Users\Kevin R. Kolak\AppData\Roaming/xLights_l4cpp.log.
